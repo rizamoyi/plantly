@@ -1,3 +1,4 @@
+import { theme } from "@/theme";
 import { Text, View, StyleSheet } from "react-native";
 
 export default function ProfileScreen() {
@@ -13,7 +14,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#fff",
+    backgroundColor: theme.colorWhite,
   },
   text: {
     fontSize: 24,
