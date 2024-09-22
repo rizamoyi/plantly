@@ -19,6 +19,7 @@ export default function Layout() {
       },
     ]);
   }, []);
+
   return (
     <Stack>
       <Stack.Screen
