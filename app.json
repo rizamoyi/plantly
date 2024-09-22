@@ -29,6 +29,15 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e300e7eb-aca8-4e1a-bd47-bb4cded176cb"
+      }
+    },
+    "owner": "samkach"
   }
 }
